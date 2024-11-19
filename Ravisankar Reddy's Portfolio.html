@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravisankar Reddy's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Name Field -->
+        <div class="name-field">
+            <h1>Maram Venkata Ravisankar Reddy</h1>
+            <p>Final Year B.Tech - CSE | RVR&JC College of Engineering | Guntur</p>
+        </div>
+        <!-- Photo Field -->
+        <div class="photo-field">
+            <img src="./images/Ravi_Image.jpeg" alt="Profile photo of Maram Venkata Ravisankar Reddy" id="profile-photo">
+        </div>
+        <!-- Navigation Buttons -->
+        <div class="navigation">
+            <button onclick="scrollToSection('about-me')">About Me</button>
+            <button onclick="scrollToSection('contact-info')">Contact Info</button>
+            <button onclick="scrollToSection('education')">Education</button>
+            <button onclick="scrollToSection('skills')">Skills</button>
+            <button onclick="scrollToSection('projects')">Projects</button>
+            <button onclick="scrollToSection('internships')">Internships</button>
+            <button onclick="scrollToSection('certificates')">Certificates</button>
+            <button onclick="scrollToSection('hobbies')">Hobbies</button>
+            <button onclick="scrollToSection('links')">Links</button>
+            <button onclick="scrollToSection('acm-membership')">ACM Membership</button>
+        </div>
+        <!-- About Me Section -->
+        <section id="about-me" class="about-me">
+            <h2>About Me</h2>
+            <p>
+                I am a final-year B.Tech Computer Science student at RVR&JC College of Engineering with a CGPA of 9.37. I have experience in data science and artificial intelligence, with a passion for solving complex problems using cutting-edge technologies like Generative AI and machine learning.
+            </p>
+        </section>
+        <!-- Contact Information -->
+        <section id="contact-info" class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> <a href="mailto:ravisankar.reddy7008@gmail.com">ravisankar.reddy7008@gmail.com</a></p>
+            <p><strong>Phone:</strong> +91 8309056217</p>
+            <p><strong>Location:</strong> Unnaguravayapalem, Podili, Prakasam, AP, 523240</p>
+            <p><strong>Date of Birth:</strong> 29th Aug 2004</p>
+        </section>
+        <section id="education" class="education">
+            <h2>Education</h2>
+            <p><strong>B.Tech in Computer Science Engineering (Pursuing)</strong></p>
+            <p><strong>Expected Graduation:</strong> 2025</p>
+            <p><strong>RVR&JC College of Engineering, Guntur:</strong> CGPA 9.37/10</p>
+            <p><strong>Narayana Jr College, Vijayawada:</strong> 95.8%</p>
+            <p><strong>Sunshine EM High School, Podili:</strong> 9.7/10</p>
+        </section>
+        <!-- Skills Field -->
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Languages Known:</strong> C, Python, Java, HTML, CSS</li>
+                <li><strong>Technical Skills:</strong> Data Analysis, Data Structures</li>
+                <li><strong>Software Tools:</strong> Jupyter Notebook, IDLE, Basics of Android Studio</li>
+            </ul>
+        </section>
+        <!-- Projects Field -->
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Hate Speech Detection:</strong> Developed a machine learning model for hate speech detection using NLP techniques and supervised learning.</li>
+                <li><strong>Invoice Information Extraction:</strong> Created a Streamlit application using Google Generative AI to analyze invoice images and extract relevant data.</li>
+                <li><strong>Question Answering System:</strong> Built a system using Python, LangChain, and ChromaDB for efficient information retrieval.</li>
+            </ul>
+        </section>
+        <!-- Internships Field -->
+        <section id="internships" class="internships">
+            <h2>Internships</h2>
+            <ul>
+                <li><strong>Data Science Intern at OneStop</strong></li>
+                <li><strong>Web Developer Intern at Technohacks</strong></li>
+                <li><strong>AI Intern at Internship Studio</strong></li>
+            </ul>
+        </section>
+        <!-- Certificates Field -->
+        <section id="certificates" class="certificates">
+            <h2>Certificates</h2>
+            <ul>
+                <li>NPTEL Certificate in Programming in Java</li>
+                <li>Career Essentials in Generative AI by Microsoft and LinkedIn</li>
+                <li>Prompt Engineering for Everyone by IBM</li>
+                <li>NPTEL Certificate in Joy of Computing using Python</li>
+                <li>Introduction to GANs – LinkedIn</li>
+                <li>Artificial Intelligence Training – Internship Studio</li>
+                <li>Google Data Analytics – Coursera</li>
+            </ul>
+        </section>
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Listening to music</li>
+                <li>Driving</li>
+            </ul>
+        </section>
+        <!-- Links Section -->
+        <section id="links" class="links">
+            <h2>Links</h2>
+            <p>
+                <strong>GitHub:</strong> <a href="https://github.com/venkataravi700" target="_blank">Venkata Ravi</a><br>
+                <strong>LeetCode:</strong> <a href="https://leetcode.com/u/VENKATA_RAVISANKAR_REDDY_MARAM/" target="_blank">VENKATA_RAVISANKAR_REDDY_MARAM</a><br>
+                <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/venkata-ravisankar-reddy-maram-055048258" target="_blank">Venkata Ravisankar Reddy Maram</a>
+            </p>
+        </section>
+        <!-- ACM Membership Section -->
+        <section id="acm-membership" class="acm-membership">
+            <h2>ACM Membership</h2>
+            <p>
+                I am a member of the ACM (Association for Computing Machinery). As a member, I participated in organizing an intercollege event named <strong>TECHNIZEN</strong>. My roles included preparing Python questions for the event and volunteering for the entire two-day event.
+            </p>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <p>© 2024 Venkata Ravisankar Reddy</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
